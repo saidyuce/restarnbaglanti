@@ -1,0 +1,7 @@
+#!/bin/bash
+cd /var/www/html/scripts
+isExistApp = `pgrep httpd`
+if [[ -n  $isExistApp ]]; then
+    service httpd stop        
+fi
+
