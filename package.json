@@ -1,0 +1,36 @@
+{
+	"name": “app.js”,
+	"version": “1.0.1”,
+	"author": “OnurCevik <m.onur.cevik@hotmail.com>”,
+	"description": “Websocket connection”,
+	"main": “./app.js”,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/saidyuce/restarnbaglanti.git”
+	},
+	"keywords": [
+		"websocket",
+		"websocket-server",
+		"websocket-client"
+	],
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.10"
+	},
+	"scripts": {
+		"test": "mocha -R spec -b"
+	},
+       "dependencies": {
+   		"engine.io": "1.6.11",
+   		"socket.io-parser": "2.2.6",
+    		"socket.io-client": "1.4.8",
+    		"socket.io-adapter": "0.4.0",
+		"express": "4.13.4”,
+    		"has-binary": "0.1.7",
+    		"debug": "2.2.0"
+  	},
+	"devDependencies": {
+		"mocha": "^3.0.2",
+		"should": "^11.1.0"
+	}
+}
